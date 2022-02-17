@@ -1,7 +1,7 @@
 import { configureStore, createSlice } from "@reduxjs/toolkit";
 import MOCK_DATA from "assets/MOCK_DATA.json";
 
-const setDataSlice = createSlice({
+const sortDataSlice = createSlice({
   name: "data",
   initialState: [...MOCK_DATA],
   reducers: {
@@ -15,9 +15,9 @@ const setDataSlice = createSlice({
 });
 
 const store = configureStore({
-  reducer: { data: setDataSlice.reducer },
+  reducer: { data: sortDataSlice.reducer },
 });
 
-export const setDataActions = setDataSlice.actions;
+export const setDataActions = sortDataSlice.actions;
 
 export default store;
