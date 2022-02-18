@@ -28,7 +28,7 @@ const tableSlice = createSlice({
   },
 });
 
-const setDataSlice = createSlice({
+const sortDataSlice = createSlice({
   name: "sort",
   initialState: [...MOCK_DATA],
   reducers: {
