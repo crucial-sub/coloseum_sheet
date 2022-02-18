@@ -2,7 +2,7 @@ import { configureStore, createSlice } from "@reduxjs/toolkit";
 import MOCK_DATA from "assets/MOCK_DATA.json";
 
 const sortDataSlice = createSlice({
-  name: "data",
+  name: "sort",
   initialState: [...MOCK_DATA],
   reducers: {
     descending(state, action) {
@@ -14,10 +14,25 @@ const sortDataSlice = createSlice({
   },
 });
 
+const tableInitialState = {
+  tableData: [],
+};
+
+const tableSlice = createSlice({
+  name: "table",
+  initialState: tableInitialState,
+  reducers: {
+    getTableData(state, action) {
+      state.tableData = action.payload;
+    },
+  },
+});
+
 const store = configureStore({
-  reducer: { data: sortDataSlice.reducer },
+  reducer: { sort: sortDataSlice.reducer, table: tableSlice.reducer },
 });
 
 export const setDataActions = sortDataSlice.actions;
+export const tableActions = tableSlice.actions;
 
 export default store;
