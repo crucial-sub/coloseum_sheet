@@ -28,6 +28,19 @@ const tableSlice = createSlice({
   },
 });
 
+const setDataSlice = createSlice({
+  name: "sort",
+  initialState: [...MOCK_DATA],
+  reducers: {
+    descending(state, action) {
+      state.sort((a, b) => (a[action.payload] > b[action.payload] ? -1 : 1));
+    },
+    ascending(state, action) {
+      state.sort((a, b) => (a[action.payload] > b[action.payload] ? 1 : -1));
+    },
+  },
+});
+
 const store = configureStore({
   reducer: { sort: sortDataSlice.reducer, table: tableSlice.reducer },
 });
