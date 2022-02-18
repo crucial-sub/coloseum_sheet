@@ -7,8 +7,6 @@ import { tableActions } from "store";
 import MOCK_DATA from "assets/MOCK_DATA.json";
 import Cards from "components/Cards";
 
-import MOCK_DATA from "assets/MOCK_DATA.json";
-
 const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -19,7 +17,7 @@ const App = () => {
     <MainPage>
       <GlobalStyle />
       <ItemSheet />
-      <Cards />
+      {/* <Cards /> */}
     </MainPage>
   );
 };

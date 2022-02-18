@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import MOCK_DATA from "assets/MOCK_DATA.json";
 import styled from "styled-components";
-import SortButton from "./SortButton";
 import { useSelector } from "react-redux";
 import SortButton from "./SortButton";
 
@@ -11,7 +10,7 @@ const ItemSheet = () => {
   const tableData = useSelector((state) => state.data.tableData);
 
   const keys = Object.keys(MOCK_DATA[0]);
-  const sortedData = useSelector((state) => state.data);
+  const sortedData = useSelector((state) => state.sort);
   const [selColumn, setSelColumn] = useState(null);
 
   const isCheckedHandler = (event) => {
@@ -93,11 +92,9 @@ const Th = styled.th`
   outline: 1px solid black;
   text-align: center;
   white-space: nowrap;
-
   div {
     display: flex;
   }
-
   span {
     display: flex;
     align-items: center;
@@ -115,7 +112,6 @@ const Td = styled.td`
   text-align: center;
   outline: 1px solid black;
   white-space: nowrap;
-
   background-color: ${(props) => props.clickedId === props.id && "#D3DEDC"};
 `;
 
