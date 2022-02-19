@@ -11,9 +11,9 @@
 |                                           프로필                                           |                    이름                     | 담당 기능                                         |
 | :----------------------------------------------------------------------------------------: | :-----------------------------------------: | :------------------------------------------------ |
 | <img src="https://avatars.githubusercontent.com/Ubermensch0608" width="100" height="100"/> | [우종원](https://github.com/Ubermensch0608) | table_sheet, 데이터라인 하이라이트, 우선순위 리셋 |
-|  <img src="https://avatars.githubusercontent.com/crucial-sub" width="100" height="100"/>   |  [박중섭](https://github.com/crucial-sub)   |                                                   |
-|    <img src="https://avatars.githubusercontent.com/ttaerrim" width="100" height="100"/>    |    [이태림](https://github.com/ttaerrim)    |                                                   |
-|   <img src="https://avatars.githubusercontent.com/penguin311" width="100" height="100"/>   |   [임수영](https://github.com/penguin311)   |                                                   |
+|  <img src="https://avatars.githubusercontent.com/crucial-sub" width="100" height="100"/>   |  [박중섭](https://github.com/crucial-sub)   | 데이터 정렬, 스크롤 포탈 버튼                     |
+|    <img src="https://avatars.githubusercontent.com/ttaerrim" width="100" height="100"/>    |    [이태림](https://github.com/ttaerrim)    | 카드 뷰 구현, 테이블 우선순위                     |
+|   <img src="https://avatars.githubusercontent.com/penguin311" width="100" height="100"/>   |   [임수영](https://github.com/penguin311)   | 배포                                              |
 
 ## 🚀 스택
 
@@ -21,7 +21,7 @@
 
 ## 🗒 프로젝트 진행 과정 및 구현 사항
 
-[위키 링크](https://github.com/console-lo9/coloseum_sheet/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A7%84%ED%96%89-%EA%B3%BC%EC%A0%95)
+[위키 링크](https://github.com/console-lo9/coloseum_sheet/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A7%84%ED%96%89-%EA%B3%BC%EC%A0%95-%EB%B0%8F-%EA%B5%AC%ED%98%84-%EC%82%AC%ED%95%AD)
 
 ## ⚙ 설치
 
@@ -84,6 +84,12 @@ $ npm start || yarn start
 
 ### **박중섭** ✨
 
+기획 단계에서 팀원들과 사용자 시점의 사이트 편의성에 대해 깊은 논의를 나누었고 이를 해결하기 위한 많은 아이디어를 공유한 후 해당 기능들을 실제로 구현하는데 성공하였습니다. 개발에 앞서 사용자의 입장에서 팀원들과 함께 고민할 수 있었던 의미있는 프로젝트였습니다.
+
 ### **이태림** 🐯
 
+기존 과제와 달리 설계부터 시작해야 해 어렵기도 했지만 직접 유저의 입장에서 생각해 보며 어떻게 하면 더 좋은 UI/UX를 선사할 수 있을까 고민할 수 있었던 과제였습니다. Figma를 사용해 디자인부터 구현하는 게 낯설었으나, 확실히 틀을 우선 잡아 놓고 개발을 하는 게 시간 절약 면에서 더 도움이 된다는 생각을 직접 경험해 본 프로젝트가 됐습니다.
+
 ### **임수영** 🐧
+
+비즈니스에 더 적합한 UI를 고민해볼 수있던 과제였던 것 같았고, 적합한 UI를 설계하고 구현하는 과정에서 Figma사용 등, 개발적인 과정에만 몰두하기 보다는 기획이나 UX/UI를 고민해 볼 수 있었던 것 같습니다.
