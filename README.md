@@ -1,5 +1,8 @@
 <h1 align="center"> 다량 데이터 설계 및 구현 과제 </h1>
 
+<img width="1349" alt="Project 5 구현 사항 사진1" src="https://user-images.githubusercontent.com/87363422/181041333-408386c4-7f1e-4d4d-8274-31a0baab1f22.png">
+<img width="1330" alt="Project 5 구현 사항 사진2" src="https://user-images.githubusercontent.com/87363422/181041351-b3dbccbf-0714-4f78-9d86-dad54097ebee.png">
+
 <h3 align="center"> 서비스 링크 : https://vigilant-rosalind-e05fcd.netlify.app/</h3>
 
 ## 👏 프로젝트 소개
@@ -52,6 +55,7 @@ $ npm start || yarn start
     "styled-components": "^5.3.3",
     "web-vitals": "^2.1.0"
   },
+
 ```
 
 ## 📂 프로젝트 구조
